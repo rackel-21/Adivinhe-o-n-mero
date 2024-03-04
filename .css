@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image:linear-gradient(to right, rgb(225, 168, 225),purple) ;
+  }
+
+  h1 {
+    color: navy;
+  }
+
+  .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: navy;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #001f4d;
+  }
+  
+  .message {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
